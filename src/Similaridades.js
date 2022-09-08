@@ -26,7 +26,6 @@ function Similaridades() {
     );
 
     const handleThemeChange = (event) => {
-        console.log(event.target.value)
         setSelectedGraficoSimilaridade(event.target.value);
       };
   
@@ -38,7 +37,7 @@ function Similaridades() {
             <Select
                 labelId="select-label-select-sim-graph"
                 id="sim-graph-select"
-                value={graficosSimilaridadeInfo[selectedGraficoSimilaridade][0]}
+                value={selectedGraficoSimilaridade}
                 label="Tema"
                 onChange={handleThemeChange}
             >
