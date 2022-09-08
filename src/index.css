@@ -26,6 +26,7 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .general-text{
@@ -48,4 +49,16 @@ iframe {
   font-family: 'Changa', sans-serif;
   color: #0660a2;
   text-align: center;
+}
+
+@media (max-width: 600px)
+{
+  .general-text
+   {
+    font-size: 4vw;
+   }
+
+   .main-title{
+    font-size: 5vw;
+  }
 }
