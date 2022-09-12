@@ -61,4 +61,8 @@ iframe {
    .main-title{
     font-size: 5vw;
   }
+
+  defs {
+    display: none;
+  }
 }
