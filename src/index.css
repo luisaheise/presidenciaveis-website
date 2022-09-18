@@ -36,6 +36,13 @@ iframe {
   font-size: 1vw;
   width: 90%;
 }
+.credits{
+  font-family: 'M PLUS 1', sans-serif;
+  color: white;
+  margin-top: 2vh;
+  font-size: 1vw;
+  width: 90%;
+}
 
 .main-title{
   font-family: 'Changa', sans-serif;
