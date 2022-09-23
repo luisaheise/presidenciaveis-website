@@ -9,24 +9,23 @@ function Similaridades() {
     const [selectedGraficoSimilaridade, setSelectedGraficoSimilaridade] = useState(0);
     const [graficosSimilaridadeInfo, setGraficosSimilaridadeInfo] = useState(
         [
-            ["Aposentadoria", "graficos_similaridade/aposentadoria.html"],
-            ["Auxílio Brasil", "graficos_similaridade/auxilio_brasil.html"],
-            ["CLT", "graficos_similaridade/clt.html"],
-            ["Covid-19", "graficos_similaridade/covid.html"],
-            ["Dólar", "graficos_similaridade/dolar.html"],
-            ["Educação", "graficos_similaridade/educacao.html"],
-            ["Fome", "graficos_similaridade/fome.html"],
-            ["Gasolina", "graficos_similaridade/gasolina.html"],
-            ["Inflação", "graficos_similaridade/inflacao.html"],
-            ["LGBT", "graficos_similaridade/lgbt.html"],
-            ["PEC Kamikaze", "graficos_similaridade/pec_kamikaze.html"],
-            ["Religião", "graficos_similaridade/religiao.html"],
-            ["Vacina", "graficos_similaridade/vacina.html"]
+            ["Aposentadoria", "graficos_similaridade/Aposentadoria.html"],
+            //["Auxílio Brasil", "graficos_similaridade/Auxílio Brasil.html"],
+            ["Questões Trabalhistas", "graficos_similaridade/Trabalho.html"],
+            ["Covid-19", "graficos_similaridade/Covid.html"],
+            //["Dólar", "graficos_similaridade/Dólar.html"],
+            ["Educação", "graficos_similaridade/Educação.html"],
+            ["Fome", "graficos_similaridade/Fome.html"],
+            ["Gasolina", "graficos_similaridade/Gasolina.html"],
+            //["Inflação", "graficos_similaridade/Inflação.html"],
+            ["LGBT", "graficos_similaridade/LGBT.html"],
+            //["PEC Kamikaze", "graficos_similaridade/PEC Kamikaze.html"],
+            //["Religião", "graficos_similaridade/Religião.html"],
+            ["Vacina", "graficos_similaridade/Vacina.html"]
         ]
     );
 
     const handleThemeChange = (event) => {
-        console.log(event.target.value)
         setSelectedGraficoSimilaridade(event.target.value);
       };
   
@@ -38,7 +37,7 @@ function Similaridades() {
             <Select
                 labelId="select-label-select-sim-graph"
                 id="sim-graph-select"
-                value={graficosSimilaridadeInfo[selectedGraficoSimilaridade][0]}
+                value={selectedGraficoSimilaridade}
                 label="Tema"
                 onChange={handleThemeChange}
             >
