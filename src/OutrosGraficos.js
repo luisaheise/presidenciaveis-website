@@ -4,26 +4,38 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-//import PlotlyGraph from './components/PlotlyGraph.js'
-//import bolsonaro_media_mensal_mencoes_tweet from './assets/outros_graficos/bolsonaro_media_mensal_mencoes_tweet.json'
-//<PlotlyGraph
-//data = {graficos_info[indexGraph].dado_json['data']}
-//layout = {graficos_info[indexGraph].dado_json['layout']}
-///>
+
+
 export default function OutrosGraficos(){
+
     const graficos_info = [
-        {nome: 'Contagem de Links',
-        descricao: 'Contagem de Links por candidato',
-        path_html: 'outros_graficos/contagem_links.html'},
-        {nome: 'Dispersão de Links',
-        descricao: 'Dispersão de Links por candidato',
-        path_html: 'outros_graficos/dispersao_links_tweets.html'},
+        {nome: 'Média de menções nos tweets do Lula',
+        descricao: '',
+        path_html: 'outros_graficos/lula_media_mensal_mencoes_tweet.html'},
+
+        {nome: 'Média de likes por Tweet',
+        descricao: '',
+        path_html: 'outros_graficos/media_de_likes_por_tweet.html'},
+
         {nome: 'Menções nos likes',
-        descricao: 'Contagem de Links por candidato',
+        descricao: '',
         path_html: 'outros_graficos/efeito_das_mencoes_nos_likes.html'},
+
         {nome: 'WordClouds',
-        descricao: 'Contagem de Links por candidato',
-        path_html: 'outros_graficos/wordclouds.html'}
+        descricao: '',
+        path_html: 'outros_graficos/wordclouds.html'},
+
+        {nome: 'Menções nos likes',
+        descricao: '',
+        path_html: 'outros_graficos/efeito_das_mencoes_nos_likes.html'},
+
+        {nome: 'Contagem de Links',
+        descricao: '',
+        path_html: 'outros_graficos/contagem_links.html'},
+
+        {nome: 'Dispersão de Links',
+        descricao: '',
+        path_html: 'outros_graficos/dispersao_links_tweets.html'},
     ]
 
     const [indexGraph, setIndexGraph] = useState(0);
