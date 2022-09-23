@@ -10,13 +10,14 @@ const PlotlyGraph = ({ data, layout, config }) => {
 
   useEffect(() => {
     Plotly.Plots.resize("plotlyChart");
+    console.log(size)
   }, [size]);
 
   return (
     <Plot
       divId="plotlyChart"
       data={data}
-      layout={{ ...layout, autosize: true }}
+      layout={{ ...layout, autosize: true, showlegend: false}}
       config={config}
       useResizeHandler
       className="w-full h-full"

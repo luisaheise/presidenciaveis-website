@@ -1,6 +1,7 @@
 import './App.css';
 import logo from './assets/logo_turing.png'
 import Similaridades from './Similaridades.js'
+import OutrosGraficos from './OutrosGraficos.js'
 import { Typography, Paper, Grid, Divider } from '@mui/material';
 
 
@@ -37,6 +38,9 @@ function App() {
           </Grid>
           <Grid justifyContent="center" alignItems="center" xs={8}>
             <Similaridades/>
+          </Grid>
+          <Grid justifyContent="center" alignItems="center" xs={8}>
+            <OutrosGraficos/>
           </Grid>
         </Grid>  
         </Paper>
