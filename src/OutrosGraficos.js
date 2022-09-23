@@ -17,25 +17,17 @@ export default function OutrosGraficos(){
         descricao: '',
         path_html: 'outros_graficos/media_de_likes_por_tweet.html'},
 
-        {nome: 'Menções nos likes',
-        descricao: '',
-        path_html: 'outros_graficos/efeito_das_mencoes_nos_likes.html'},
-
         {nome: 'WordClouds',
         descricao: '',
         path_html: 'outros_graficos/wordclouds.html'},
 
-        {nome: 'Menções nos likes',
+        {nome: 'Efeitos das menções nos likes',
         descricao: '',
-        path_html: 'outros_graficos/efeito_das_mencoes_nos_likes.html'},
+        path_html: 'outros_graficos/efeitos_das_mencoes_nos_likes.html'},
 
-        {nome: 'Contagem de Links',
+        {nome: 'Likes por mês dos candidatos',
         descricao: '',
-        path_html: 'outros_graficos/contagem_links.html'},
-
-        {nome: 'Dispersão de Links',
-        descricao: '',
-        path_html: 'outros_graficos/dispersao_links_tweets.html'},
+        path_html: 'outros_graficos/likes_mes_candidato.html'},
     ]
 
     const [indexGraph, setIndexGraph] = useState(0);
