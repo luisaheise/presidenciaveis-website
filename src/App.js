@@ -31,7 +31,7 @@ function App() {
           </Grid>
           <Grid display="flex" justifyContent="center" alignItems="center" xs={8}>
             <h4 className="general-text">
-            Com estes dados, calculamos a similaridade entre os discursos dos candidatos sobre determinados temas. Para realizar esta tarefa, utilizamos técnicas do Estado da Arte de Processamento de Linguagem Natural. Você pode encontrar mais detalhes da execução do projeto em nosso artigo no <Link href='https://linktr.ee/turing.usp'>Medium.</Link>, para, por exemplo, entender o que realmente significam estas similaridades. Além disso, também realizamos algumas análises sobre os tweets utilizando técnicas de Ciência de Dados.
+            Com estes dados, calculamos a similaridade entre os discursos dos candidatos sobre determinados temas. Para realizar esta tarefa, utilizamos técnicas do Estado da Arte de Processamento de Linguagem Natural. Você pode encontrar mais detalhes da execução do projeto em nosso artigo no <Link href='https://linktr.ee/turing.usp'>Medium.</Link>, para, por exemplo, entender o que realmente significam estas similaridades. Além disso, também realizamos algumas análises sobre os tweets utilizando técnicas de Ciência de Dados, o que foi feito pela <strong>área de Data Science do Turing USP</strong>.
             </h4>
           </Grid>
           <Grid xs={8}>
