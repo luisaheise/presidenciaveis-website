@@ -55,7 +55,7 @@ export default function OutrosGraficos(){
 
         {nome: 'Menções feitas por Bolsonaro a outros candidatos',
         descricao: '',
-        path_html: 'jairbolsonaro_mencoes.html'},
+        path_html: 'outros_graficos/jairbolsonaro_mencoes.html'},
 
         {nome: "Menções feitas por Felipe d'Ávila a outros candidatos",
         descricao: '',
